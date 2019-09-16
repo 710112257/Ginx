@@ -40,6 +40,7 @@ func (this *PingRouter) PostHandle(request ziface.IRequest) {
 func main() {
 	s := znet.NewServer("ydc")
 	s.AddRouter(&PingRouter{})
+
 	s.Serve()
 
 	select {}

@@ -3,7 +3,7 @@ tcp服务器
 
 environment:
     
-    打开go mod
+    需要打开go mod
     不需要设置go path    
 
 run:

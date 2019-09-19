@@ -1,4 +1,4 @@
-# Zinx
+# Ginx
 tcp服务器
 
 environment:
